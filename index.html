@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Determinante de Matriz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Determinante de Matriz</h1>
+
+    <div class="area">
+        
+        <input class = "cel" data-item="[1][1]" type="number" value="0"/> 
+        <input class = "cel" data-item="[1][2]" type="number" value="0"/>
+        <input class = "cel" data-item="[1][3]" type="number" value="0"/>
+
+        <input class = "cel" data-item="[2][1]" type="number" value="0"/>
+        <input class = "cel" data-item="[2][2]" type="number" value="0"/>
+        <input class = "cel" data-item="[2][3]" type="number" value="0"/>
+
+        <input class = "cel" data-item="[3][1]" type="number" value="0"/>
+        <input class = "cel" data-item="[3][2]" type="number" value="0"/>
+        <input class = "cel" data-item="[3][3]" type="number" value="0"/>
+    </div>
+
+    <div class="results">
+        <div class="showResults">----</div>
+
+    </div>
+    <div class="button-area">
+        <button onclick="fillMatrix(matrix)" class="calc">Calc Det</button>
+        <button onclick="clearMatrix(matrix)"class="reset">Resetar</button>
+    </div>
+    <footer>
+        <h2>Developed by: Lucas Natan </h2></br>
+    </footer>
+
+    <script src="script.js"></script>
+    <!--<script src="script - solve-matrix.js"></script>-->
+</body>
+</html>
